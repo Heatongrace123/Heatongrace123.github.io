@@ -4,23 +4,40 @@
 	<title>My Site</title>
 </head>
 <body>
+	<ul class="nav">  
+		<li><a href="file:///C:/Users/Grace/Documents/year%203/Coding%20course/Heatongrace123.github.io/index.html" class="home">Home</a></li>
+		<li><a href="https://www.facebook.com/gheaton1234" class=facebook>Add Me on Facebook!</a></li>
+	</ul>
+	<div class="page-wrapper">
 <img src="file:///C:/Users/Grace/Documents/bunny2.jpg">
+
 <h1>
 Safegaurding Children Online 
 </h1>
+
 <p>
 How can you improve your child's online safety? 
 </p>
-<ul> Top Web Links For Child E-Safety </ul>
+
+<input type="email" placeholder="your email" class="email">
+
+
+<ul>Top Web Links For Child E-Safety</ul>
 <li><a href="www.ceop.police.uk" class="ceop"> Child Exploitation Online Protection Centre</a> </li>
 <li><a href="www.nspcc.org" class="NSPCC"> NSPCC</a></li>
 <li><a href="www.bettersafety.com" class="bettersafety">Better Safety</a> </li>
 <li><a href="http://www.phonesheriff.com/iphone-parental-monitoring.html" class="PhoneSheriff"> Phone Sheriff</a></li>
 <li><a href="http://www.dailymail.co.uk/home/article-264161/Online-safety-guide-kids.html" class="dailymail"> Daily Mail</a></li>
+
+
 <ol> Interesting articles </ol>
 <li><a href="www.huffingpost.com/scott-steinberg/internet-safety_b_1719741.html" class="huffingtonpost"> Huffington Post</a></li>
 <li> <a href="https://www.nspcc.org.uk/preventing-abuse/child-abuse-and-neglect/grooming/?utm_source=facebook_mainnspcc&utm_medium=nspccsocialmedia&utm_campaign" class="sexualgrooming"> Sexual Grooming What is it? Signs and how to protect children</a></li>
 <li><a href="https://www.ofcom.org.uk/__data/assets/pdf_file/0027/76266/childrens_2014_report.pdf" class="Report"> Report on Parental Mediation </a></li>
+
+</div>
+
+
 <style> 
 	body {
 		text-align: center;
@@ -37,6 +54,10 @@ How can you improve your child's online safety?
 	img {
 		padding:1px;
 		border:10px solid skyblue;
+	}
+	.email {
+		position: center;
+
 	}
 	.ceop {
 		font-weight: bold;
@@ -73,19 +94,43 @@ How can you improve your child's online safety?
 	ul {
 		text-align: center;
 		font-size: 110%;
-		text-decoration: underline;
 	}
 	li {
 		text-align: center;
+		text-decoration: underline;
+
 	}
 	ol {
 		text-align: center;
 		font-size: 110%;
-		text-decoration: underline;
 	}
 	p {
 		font-size: 150%;
 		font-style: italic;
+	}
+	.nav {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		background-color: none;
+		margin-bottom: 20px;
+		display: inline;
+	}
+	.nav li {
+		margin: 0;
+		padding: 5px;
+		list-style: none;
+		background-color: none;
+		margin-bottom: 20px;
+		display: inline;
+	}
+	.page-wrapper {
+		position: relative;
+		top: 25px;
 	}
 </style>
 </body>
